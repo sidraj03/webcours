@@ -1,0 +1,145 @@
+/* Base Styles */
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-family: American Typewriter;
+	color: #000000;
+	text-align: center;
+	font-size: 50px;
+}
+
+body {
+	background-color: #a297a8;
+
+}
+
+p {
+	padding: 10px;
+	margin: 0;
+	font-style: italic;
+}
+
+.container {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+section {
+	border:	1px solid black;
+	background-color: #95B4F7;
+	width: 100%;
+	height: 200px;
+	font-family: Ariel,sans-serif;
+	color: black;
+	position: relative;
+	overflow: auto;
+}
+
+#chicken {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Helvetica,sans-serif;
+	font-weight: bold;
+	font-size: 150%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #DFE26F;
+}
+
+#beef {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Helvetica,sans-serif;
+	font-weight: bold;
+	font-size: 150%;
+	color:white;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #801111;
+}
+
+#sushi {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Helvetica,sans-serif;
+	font-weight: bold;
+	font-size: 150%;
+	margin-bottom: 0;
+	margin-top: 0;
+	background-color:#95F798;
+	color: black;
+	padding: 5px;
+}
+
+#chicken-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#beef-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sushi-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  border: 0 0 10px 10px;
+  color: #FFFFFF;
+}
+
+#header-nav {
+  border: 0;
+  background-color: #c1dd9f;
+  color: #FFFFFF;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.nav-header {
+  background-color: #c1dd9f;
+}
+
+.nav-brand {
+  color: black;
+  font-family:American Typewriter;
+  font-size: 2em;
+}
+
+#nav-list {
+  color: white;
+}
+
+hr {
+  border-color: white;
+}
+
+.item {
+  color: white;
+  font-size: 1.2em;
+}
